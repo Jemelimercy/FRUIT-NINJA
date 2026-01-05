@@ -21,7 +21,7 @@ Instead of checking if the finger is inside the fruit at a single moment, the ga
 The distance $d$ is calculated using:
 $$d = \frac{|(y_B - y_A)x_P - (x_B - x_A)y_P + x_B y_A - y_B x_A|}{\sqrt{(y_B - y_A)^2 + (x_B - x_A)^2}}$$
 
-If $d < \text{fruit\_radius}$, a slice is registered. This ensures 100% accuracy even during rapid swipes.
+If $d < \text{fruit-radius}$, a slice is registered. This ensures 100% accuracy even during rapid swipes.
 
 
 
